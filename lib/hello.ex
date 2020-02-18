@@ -3,6 +3,25 @@ defmodule Hello do
   Documentation for `Hello`.
   """
 
+    
+  @doc """
+  Says "hello world" when no argument.
+
+  Returns `:ok`.
+
+  ## Examples
+
+      iex> Hello.hello()
+      :ok
+
+  """
+  @doc since: "0.1.0"
+
+  def hello do
+    "Hello World!"
+  end
+
+
   @doc """
   Says hello to the given `name`.
 
@@ -10,12 +29,12 @@ defmodule Hello do
 
   ## Examples
 
-      iex> MyApp.Hello.world(:john)
+      iex> Hello.hello(:ten)
       :ok
 
   """
   @doc since: "0.1.0"
-  def hello do
-    :world
+  def hello(x) do
+    x
   end
 end
