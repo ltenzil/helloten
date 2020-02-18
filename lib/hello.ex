@@ -34,7 +34,7 @@ defmodule Hello do
 
   """
   @doc since: "0.1.0"
-  def hello(x) do
-    x
+  def hello(name) do
+    "Hello!, #{name}"
   end
 end
