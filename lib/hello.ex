@@ -4,15 +4,18 @@ defmodule Hello do
   """
 
   @doc """
-  Hello world.
+  Says hello to the given `name`.
+
+  Returns `:ok`.
 
   ## Examples
 
-      iex> Hello.hello()
-      :world
+      iex> MyApp.Hello.world(:john)
+      :ok
 
   """
+  @doc since: "0.1.0"
   def hello do
-    :ten
+    :world
   end
 end
