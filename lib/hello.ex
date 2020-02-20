@@ -5,7 +5,7 @@ defmodule Hello do
 
     
   @doc """
-  Says "hello world" when no argument.
+  Says "hello world" when no arguments.
 
   Returns `:ok`.
 
